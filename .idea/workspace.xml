@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3786edb2-3304-4802-b30f-72158f46a3e5" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BuildThemeGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="163" column="31" selection-start-line="163" selection-start-column="31" selection-end-line="163" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-nlp/1.0.0-beta5/deeplearning4j-nlp-1.0.0-beta5.jar!/org/deeplearning4j/models/embeddings/loader/WordVectorSerializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="3333" column="39" selection-start-line="3333" selection-start-column="27" selection-end-line="3333" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/ListenableGraph.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/graph/DefaultListenableGraph.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/graph/WeightedMultigraph.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1890">
+              <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/util/MathUtil.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/util/ModifiableInteger.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/alg/interfaces/ShortestPathAlgorithm.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/alg/shortestpath/DijkstraShortestPath.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="73" column="23" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>src</find>
+      <find>class</find>
+      <find>conditi</find>
+      <find>vertex</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ContentFilterRecommender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BuildInterestGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Vertex.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/BuildThemeGraph.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="image-loader" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="image-loader" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1526" />
+    <option name="height" value="1946" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageloader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageloader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageloader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageloader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageloader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imageloader" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.jgrapht:jgrapht-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.jgrapht:jgrapht-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jgrapht-core-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.jgrapht:jgrapht-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jgrapht-core-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jgrapht" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imageloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.jgrapht:jgrapht-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jgrapht-core-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jgrapht" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="D:/androidAPI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vk_chats2\vk_chats\imageloader\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BuildThemeGraph">
+    <configuration name="BuildThemeGraph" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="BuildThemeGraph" />
+      <module name="imageloader" />
+      <option name="VM_PARAMETERS" value=" -Xms1024m -Xmx10g -XX:MaxPermSize=2g" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentFilterRecommender" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContentFilterRecommender" />
+      <module name="imageloader" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ContentFilterRecommender" />
+      <item itemvalue="Application.BuildThemeGraph" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\HUAWEI\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3786edb2-3304-4802-b30f-72158f46a3e5" name="Default Changelist" comment="" />
+      <created>1573983120437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573983120437</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1513" height="973" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11340206" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2241993" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3831554" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32977462" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1628866" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="PlantUML" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ImageConverter.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ImageConverter.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BuildThemeGraph.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 100);
+HashMap&lt;Double, GraphPath&lt;Vertex, DefaultWeightedEdge&gt;&gt; recommended = new HashMap&lt;&gt;();
+while(closestFirstIterator.hasNext()) {
+    Vertex vertex = (Vertex) closestFirstIterator.next();
+    if (vertex.getType() == Vertex.Type.PHOTO) {
+        Vertex target = (Vertex) closestFirstIterator.next();
+        Vertex source = (Vertex) ((DefaultWeightedEdge)closestFirstIterator.getSpanningTreeEdge(target)).getSource();
+        GraphPath&lt;Vertex, DefaultWeightedEdge&gt; path = DijkstraShortestPath.findPathBetween(graph, source, target);
+        if (path.getLength() &gt; 1) {
+            recommended.put(path.getWeight(), path);
+        }
+    }
+}
+List&lt;Map.Entry&lt;Double, String&gt;&gt; recommendations = recommended.entrySet().stream()
+        .sorted(Comparator.comparing(Map.Entry::getKey)
+                .reversed()).collect(Collectors.toList());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 100);
+HashMap&lt;Double, GraphPath&lt;Vertex, DefaultWeightedEdge&gt;&gt; recommended = new HashMap&lt;&gt;();
+while(closestFirstIterator.hasNext()) {
+    Vertex vertex = (Vertex) closestFirstIterator.next();
+    if (vertex.getType() == Vertex.Type.PHOTO) {
+        Vertex target = (Vertex) closestFirstIterator.next();
+        Vertex source = (Vertex) ((DefaultWeightedEdge)closestFirstIterator.getSpanningTreeEdge(target)).getSource();
+        GraphPath&lt;Vertex, DefaultWeightedEdge&gt; path = DijkstraShortestPath.findPathBetween(graph, source, target);
+        if (path.getLength() &gt; 0) {
+            recommended.put(path.getWeight(), path);
+        }
+    }
+}
+List&lt;Map.Entry&lt;Double, String&gt;&gt; recommendations = recommended.entrySet().stream()
+        .sorted(Comparator.comparing(Map.Entry::getKey)
+                .reversed()).collect(Collectors.toList());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 20);
+HashMap&lt;Double, GraphPath&lt;Vertex, DefaultWeightedEdge&gt;&gt; recommended = new HashMap&lt;&gt;();
+while(closestFirstIterator.hasNext()) {
+    Vertex vertex = (Vertex) closestFirstIterator.next();
+    if (vertex.getType() == Vertex.Type.PHOTO) {
+        Vertex target = (Vertex) closestFirstIterator.next();
+        Vertex source = (Vertex) ((DefaultWeightedEdge)closestFirstIterator.getSpanningTreeEdge(target)).getSource();
+        GraphPath&lt;Vertex, DefaultWeightedEdge&gt; path = DijkstraShortestPath.findPathBetween(graph, source, target);
+        if (path.getLength() &gt; 0) {
+            recommended.put(path.getWeight(), path);
+        }
+    }
+}
+List&lt;Map.Entry&lt;Double, String&gt;&gt; recommendations = recommended.entrySet().stream()
+        .sorted(Comparator.comparing(Map.Entry::getKey)
+                .reversed()).collect(Collectors.toList());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 20);
+HashMap&lt;Double, GraphPath&lt;Vertex, DefaultWeightedEdge&gt;&gt; recommended = new HashMap&lt;&gt;();
+while(closestFirstIterator.hasNext()) {
+    Vertex vertex = (Vertex) closestFirstIterator.next();
+    if (vertex.getType() == Vertex.Type.PHOTO) {
+        Vertex target = (Vertex) closestFirstIterator.next();
+        Vertex source = (Vertex) ((DefaultWeightedEdge)closestFirstIterator.getSpanningTreeEdge(target)).getSource();
+        GraphPath&lt;Vertex, DefaultWeightedEdge&gt; path = DijkstraShortestPath.findPathBetween(graph, source, target);
+        if (path.getLength() &gt; 1) {
+            recommended.put(path.getWeight(), path);
+        }
+    }
+}
+List&lt;Map.Entry&lt;Double, String&gt;&gt; recommendations = recommended.entrySet().stream()
+        .sorted(Comparator.comparing(Map.Entry::getKey)
+                .reversed()).collect(Collectors.toList());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 20);
+HashMap&lt;Double, GraphPath&lt;Vertex, DefaultWeightedEdge&gt;&gt; recommended = new HashMap&lt;&gt;();
+while(closestFirstIterator.hasNext()) {
+    Vertex vertex = (Vertex) closestFirstIterator.next();
+    if (vertex.getType() == Vertex.Type.PHOTO) {
+        Vertex target = (Vertex) closestFirstIterator.next();
+        Vertex source = (Vertex) ((DefaultWeightedEdge)closestFirstIterator.getSpanningTreeEdge(target)).getSource();
+        GraphPath&lt;Vertex, DefaultWeightedEdge&gt; path = DijkstraShortestPath.findPathBetween(graph, source, target);
+        recommended.put(path.getWeight(), path);
+    }
+}
+List&lt;Map.Entry&lt;Double, String&gt;&gt; recommendations = recommended.entrySet().stream()
+        .sorted(Comparator.comparing(Map.Entry::getKey)
+                .reversed()).collect(Collectors.toList());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 20);
+HashMap&lt;Double, String&gt; recommended = new HashMap&lt;&gt;();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+Vertex target = (Vertex) closestFirstIterator.next();
+Vertex source = (Vertex) ((DefaultWeightedEdge)closestFirstIterator.getSpanningTreeEdge(target)).getSource();
+DijkstraShortestPath.findPathBetween(graph, source, target);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 20);
+HashMap&lt;Double, String&gt; recommended = new HashMap&lt;&gt;();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+Vertex target = (Vertex) closestFirstIterator.next();
+Vertex source = closestFirstIterator.getSpanningTreeEdge(target).getSource();
+DijkstraShortestPath.findPathBetween(graph, source, target);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 20);
+HashMap&lt;Double, String&gt; recommended = new HashMap&lt;&gt;();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+DefaultWeightedEdge edge = (DefaultWeightedEdge) closestFirstIterator.next();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Vertex football = new Vertex(&quot;football&quot;, Vertex.Type.THEME);
+Vertex sport = new Vertex(&quot;sports&quot;, Vertex.Type.THEME);
+List&lt;Vertex&gt; userVertex = new ArrayList&lt;&gt;();
+userVertex.add(football);
+userVertex.add(sport);
+ClosestFirstIterator closestFirstIterator = new ClosestFirstIterator(graph, userVertex, 20);
+HashMap&lt;Double, String&gt; recommended = new HashMap&lt;&gt;();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+closestFirstIterator.next();
+DefaultWeightedEdge edge = (DefaultWeightedEdge) closestFirstIterator.next();
+Vertex source = (Vertex) edge.getSource();
+Vertex target = (Vertex) edge.getTarget();
+DijkstraShortestPath.findPathBetween(graph, source, target);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;russia&quot;, &quot;usa&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;caramba&quot;, &quot;football&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;karamba&quot;, &quot;football&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;sport&quot;, &quot;football&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;dust&quot;, &quot;football&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;soccer&quot;, &quot;football&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;fat&quot;, &quot;ball&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;fat&quot;, &quot;thin&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wordVectors.similarity(&quot;money&quot;, &quot;business&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-nlp/1.0.0-beta5/deeplearning4j-nlp-1.0.0-beta5.jar!/org/deeplearning4j/text/sentenceiterator/SentenceIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26292">
+          <caret line="1325" selection-start-line="1325" selection-end-line="1325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-nlp/1.0.0-beta5/deeplearning4j-nlp-1.0.0-beta5.jar!/org/deeplearning4j/text/sentenceiterator/FileSentenceIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/warpeace.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17220">
+          <caret line="820" column="34" selection-start-line="820" selection-start-column="34" selection-end-line="820" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.9/poi-3.9.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="101" column="49" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/graph/DefaultEdge.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ContentFilterRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="54" column="76" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/traverse/ClosestFirstIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/traverse/CrossComponentIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="129" column="46" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
+          <folding>
+            <element signature="e#4593#4594#0" expanded="true" />
+            <element signature="e#4637#4638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/graph/AbstractGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/Graph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-nlp/1.0.0-beta5/deeplearning4j-nlp-1.0.0-beta5.jar!/org/deeplearning4j/models/embeddings/wordvectors/WordVectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/alg/interfaces/KShortestPathAlgorithm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/alg/interfaces/VertexColoringAlgorithm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-ext/1.3.1/jgrapht-ext-1.3.1.jar!/org/jgrapht/ext/JGraphXAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/ListenableGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/graph/DefaultListenableGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/graph/WeightedMultigraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/util/MathUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/util/ModifiableInteger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/alg/interfaces/ShortestPathAlgorithm.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.3.1/jgrapht-core-1.3.1.jar!/org/jgrapht/alg/shortestpath/DijkstraShortestPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-nlp/1.0.0-beta5/deeplearning4j-nlp-1.0.0-beta5.jar!/org/deeplearning4j/models/embeddings/loader/WordVectorSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="3333" column="39" selection-start-line="3333" selection-start-column="27" selection-end-line="3333" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildThemeGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="163" column="31" selection-start-line="163" selection-start-column="31" selection-end-line="163" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

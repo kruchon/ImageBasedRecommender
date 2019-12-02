@@ -1,0 +1,9 @@
+
+[
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ß™òØıÿÿÿÿ8ÙöêÏç-
+8squid:S1220""Move this file to a named package.8Ü‘ªÏç-
+tsquid:S34576"Q%n should be used in place of \n to produce the platform-specific line separator.(ß™òØıÿÿÿÿ8ÙöêÏç-
+[squid:S1197"8Move the array designator from the variable to the type.(ùï¾ÿÿÿÿÿ8Ü‘ªÏç-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(è¸‹8µòıÏç-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8·üÕç-
