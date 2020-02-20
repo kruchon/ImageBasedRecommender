@@ -1,3 +1,5 @@
+package org.ius.gradcit.prototype;
+
 public class Vertex {
 
     private final String value;

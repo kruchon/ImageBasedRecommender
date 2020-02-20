@@ -1,3 +1,5 @@
+package org.ius.gradcit.prototype.datapreparation;
+
 import com.google.cloud.vision.v1.*;
 import com.google.protobuf.ByteString;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -5,6 +7,7 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.ius.gradcit.prototype.Const;
 
 import java.io.*;
 import java.util.ArrayList;

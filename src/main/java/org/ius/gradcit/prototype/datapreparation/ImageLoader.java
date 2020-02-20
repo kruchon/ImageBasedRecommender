@@ -1,3 +1,5 @@
+package org.ius.gradcit.prototype.datapreparation;
+
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlImage;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
@@ -5,6 +7,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.ius.gradcit.prototype.Const;
 
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;

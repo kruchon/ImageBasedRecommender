@@ -1,3 +1,5 @@
+package org.ius.gradcit.prototype;
+
 public interface Const {
 
     String IMAGES_PATH = "C:\\Users\\HUAWEI\\Documents\\master work\\images_to_load.xls";
