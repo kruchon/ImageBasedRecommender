@@ -12,7 +12,7 @@ public class Image {
     @GeneratedValue
     private Long id;
 
-    @Relationship(type = "HAS", direction = Relationship.OUTGOING)
+    @Relationship(type = "RECOGNIZED_IN", direction = Relationship.INCOMING)
     private Set<Thematics> objectClasses;
 
     @Index(unique = true)

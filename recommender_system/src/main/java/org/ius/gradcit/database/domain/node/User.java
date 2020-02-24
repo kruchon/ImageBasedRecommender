@@ -11,7 +11,7 @@ public class User {
     @GeneratedValue
     private Long id;
 
-    @Relationship(type = "HAS_INTEREST", direction = Relationship.OUTGOING)
+    @Relationship(type = "INTERESTED_IN", direction = Relationship.OUTGOING)
     private List<Thematics> interest;
 
     @Property
