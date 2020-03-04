@@ -4,16 +4,16 @@ import org.neo4j.ogm.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @NodeEntity
 public class User {
 
+    public User() {}
+
     @Id
     @GeneratedValue
     private Long id;
-
-    @Relationship(type = "INTERESTED_IN", direction = Relationship.OUTGOING)
-    private List<Thematics> interest = new ArrayList<>();
 
     @Property
     @Index(unique = true)
@@ -33,13 +33,5 @@ public class User {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public List<Thematics> getInterest() {
-        return interest;
-    }
-
-    public void setInterest(List<Thematics> interest) {
-        this.interest = interest;
     }
 }

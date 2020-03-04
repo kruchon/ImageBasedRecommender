@@ -10,12 +10,11 @@ import java.util.Set;
 @NodeEntity
 public class Image {
 
+    public Image() {}
+
     @Id
     @GeneratedValue
     private Long id;
-
-    @Relationship(type = "RECOGNIZED_IN", direction = Relationship.INCOMING)
-    private List<Thematics> objectClasses = new ArrayList<>();
 
     @Index(unique = true)
     @Property
@@ -31,14 +30,6 @@ public class Image {
 
     public void setWhenPublicated(Date whenPublicated) {
         this.whenPublicated = whenPublicated;
-    }
-
-    public List<Thematics> getObjectClasses() {
-        return objectClasses;
-    }
-
-    public void setObjectClasses(List<Thematics> objectClasses) {
-        this.objectClasses = objectClasses;
     }
 
     public String getExternalId() {

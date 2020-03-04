@@ -7,6 +7,8 @@ import org.neo4j.ogm.annotation.*;
 @RelationshipEntity(type = "RECOGNIZED_IN")
 public class RecognizedIn {
 
+    public RecognizedIn() {}
+
     @Id
     @GeneratedValue
     private Long id;

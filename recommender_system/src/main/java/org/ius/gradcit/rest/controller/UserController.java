@@ -3,11 +3,11 @@ package org.ius.gradcit.rest.controller;
 import org.ius.gradcit.logic.user.UserService;
 import org.ius.gradcit.rest.entity.UserAction;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class UserController {
 
     private final UserService userService;

@@ -24,7 +24,9 @@ public class Neo4jConfig {
 
     @Bean
     public SessionFactory sessionFactory() {
-        return new SessionFactory(getConfiguration(), "org.ius.gradcit.database.domain");
+        return new SessionFactory(getConfiguration(),
+                "org.ius.gradcit.database.domain.node",
+                "org.ius.gradcit.database.domain.relationship");
     }
 
     @Bean

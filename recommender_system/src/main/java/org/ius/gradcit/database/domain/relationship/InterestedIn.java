@@ -7,6 +7,8 @@ import org.neo4j.ogm.annotation.*;
 @RelationshipEntity(type = "INTERESTED_IN")
 public class InterestedIn {
 
+    public InterestedIn() {}
+
     @Id
     @GeneratedValue
     private Long id;
