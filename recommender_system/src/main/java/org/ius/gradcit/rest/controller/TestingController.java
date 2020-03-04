@@ -22,14 +22,22 @@ public class TestingController {
     }
 
     @GetMapping("saveImagesFromExcel")
-    public void saveImagesFromExcel() throws IOException {
-        List<String> imageIds = Files.walk(Paths.get("C:\\gradcit\\recommender\\testdata\\dataset"))
-                .skip(1)
-                .map(s -> s.toString().replace("C:\\gradcit\\recommender\\testdata\\dataset\\", "")
-                        .replaceAll("\\.png", ""))
-                .collect(Collectors.toList());
-        for (String imageId : imageIds) {
-            imageService.saveImage(imageId, "testUser");
-        }
+    public void saveImagesFromExcel() {
+        new Thread(() -> {
+            List<String> imageIds = null;
+            try {
+                imageIds = Files.walk(Paths.get("C:\\gradcit\\recommender\\testdata\\dataset"))
+                        .skip(1)
+                        .map(s -> s.toString().replace("C:\\gradcit\\recommender\\testdata\\dataset\\", "")
+                                .replaceAll("\\.png", ""))
+                        .collect(Collectors.toList());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            for (String imageId : imageIds) {
+                imageService.saveImage(imageId, "testUser");
+                System.out.println(imageId);
+            }
+        }).start();
     }
 }

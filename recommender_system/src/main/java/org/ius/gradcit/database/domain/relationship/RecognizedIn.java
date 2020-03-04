@@ -4,7 +4,7 @@ import org.ius.gradcit.database.domain.node.Image;
 import org.ius.gradcit.database.domain.node.Thematics;
 import org.neo4j.ogm.annotation.*;
 
-@RelationshipEntity("RECOGNIZED_IN")
+@RelationshipEntity(type = "RECOGNIZED_IN")
 public class RecognizedIn {
 
     @Id

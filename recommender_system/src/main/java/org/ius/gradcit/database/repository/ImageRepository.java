@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ImageRepository extends Neo4jRepository<Image, Long> {
+    Image findByExternalId(String externalId);
 }

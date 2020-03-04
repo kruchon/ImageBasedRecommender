@@ -8,6 +8,7 @@ import org.neo4j.ogm.annotation.*;
 public class InterestedIn {
 
     @Id
+    @GeneratedValue
     private Long id;
 
     @StartNode

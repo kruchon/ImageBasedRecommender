@@ -1,7 +1,6 @@
 package org.ius.gradcit.logic.image;
 
 import org.ius.gradcit.database.domain.node.Image;
-import org.ius.gradcit.database.domain.node.Thematics;
 import org.ius.gradcit.database.domain.relationship.RecognizedIn;
 import org.ius.gradcit.database.repository.ImageRepository;
 import org.ius.gradcit.database.repository.RecognizedInRepository;
@@ -10,13 +9,15 @@ import org.ius.gradcit.logic.recognition.Recognizer;
 import org.ius.gradcit.logic.recognition.impl.RecognitionResult;
 import org.ius.gradcit.logic.user.ActionType;
 import org.ius.gradcit.logic.user.UserService;
+import org.neo4j.ogm.session.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
 
 @Service
 public class ImageService {
@@ -32,7 +33,8 @@ public class ImageService {
                         UserService userService,
                         ImageRepository imageRepository,
                         ThematicsRepository thematicsRepository,
-                        RecognizedInRepository recognizedInRepository) {
+                        RecognizedInRepository recognizedInRepository,
+                        SessionFactory sessionFactory) {
         this.recognizer = recognizer;
         this.userService = userService;
         this.imageRepository = imageRepository;
@@ -40,29 +42,32 @@ public class ImageService {
         this.recognizedInRepository = recognizedInRepository;
     }
 
+    @Transactional
     public void saveImage(String imageExternalId, String userExternalId) {
-        Collection<RecognitionResult> recognitionResults = recognizer.recognize(imageExternalId);
         Image image = createImageNode(imageExternalId);
+        Collection<RecognitionResult> recognitionResults = recognizer.recognize(imageExternalId);
         saveRelationships(image, recognitionResults, userExternalId);
     }
 
     private void saveRelationships(Image image, Collection<RecognitionResult> recognitionResults, String userExternalId) {
         Collection<RecognizedIn> recognizedInRelationships = new ArrayList<>(50);
         for (RecognitionResult recognitionResult : recognitionResults) {
-            String word = recognitionResult.getWord();
-            float probability = recognitionResult.getProbability();
-            Optional<Thematics> thematicsOptional = thematicsRepository.findByWord(word);
-            if (thematicsOptional.isPresent()) {
-                Thematics thematics = thematicsOptional.get();
-                userService.incInterest(userExternalId, thematics, probability, ActionType.PUBLICATION);
-                RecognizedIn recognizedIn = new RecognizedIn();
-                recognizedIn.setProbability(probability);
-                recognizedIn.setImage(image);
-                recognizedIn.setThematics(thematics);
-                recognizedInRelationships.add(recognizedIn);
-            }
+            addNewRelationship(recognitionResult, recognizedInRelationships, image, userExternalId);
         }
         recognizedInRepository.saveAll(recognizedInRelationships);
+    }
+
+    private void addNewRelationship(RecognitionResult recognitionResult, Collection<RecognizedIn> recognizedInRelationships, Image image, String userExternalId) {
+        String word = recognitionResult.getWord();
+        float probability = recognitionResult.getProbability();
+        thematicsRepository.findByWord(word).ifPresent(thematics -> {
+            userService.incInterest(userExternalId, thematics, probability, ActionType.PUBLICATION);
+            RecognizedIn recognizedIn = new RecognizedIn();
+            recognizedIn.setProbability(probability);
+            recognizedIn.setImage(image);
+            recognizedIn.setThematics(thematics);
+            recognizedInRelationships.add(recognizedIn);
+        });
     }
 
     private Image createImageNode(String imageExternalId) {

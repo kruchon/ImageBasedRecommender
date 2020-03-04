@@ -2,6 +2,7 @@ package org.ius.gradcit.database.domain.node;
 
 import org.neo4j.ogm.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @NodeEntity(label = "Token")
@@ -13,6 +14,9 @@ public class Thematics {
 
     @Relationship(type = "NEAREST_TO", direction = Relationship.UNDIRECTED)
     private List<Thematics> nearest;
+
+    @Relationship(type = "RECOGNIZED_IN", direction = Relationship.OUTGOING)
+    private List<Image> images = new ArrayList<>();
 
     @Property
     private List<Float> embedding;
@@ -51,5 +55,13 @@ public class Thematics {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public List<Image> getImages() {
+        return images;
+    }
+
+    public void setImages(List<Image> images) {
+        this.images = images;
     }
 }

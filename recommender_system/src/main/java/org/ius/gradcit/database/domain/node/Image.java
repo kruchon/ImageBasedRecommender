@@ -2,7 +2,9 @@ package org.ius.gradcit.database.domain.node;
 
 import org.neo4j.ogm.annotation.*;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Set;
 
 @NodeEntity
@@ -13,7 +15,7 @@ public class Image {
     private Long id;
 
     @Relationship(type = "RECOGNIZED_IN", direction = Relationship.INCOMING)
-    private Set<Thematics> objectClasses;
+    private List<Thematics> objectClasses = new ArrayList<>();
 
     @Index(unique = true)
     @Property
@@ -31,11 +33,11 @@ public class Image {
         this.whenPublicated = whenPublicated;
     }
 
-    public Set<Thematics> getObjectClasses() {
+    public List<Thematics> getObjectClasses() {
         return objectClasses;
     }
 
-    public void setObjectClasses(Set<Thematics> objectClasses) {
+    public void setObjectClasses(List<Thematics> objectClasses) {
         this.objectClasses = objectClasses;
     }
 
