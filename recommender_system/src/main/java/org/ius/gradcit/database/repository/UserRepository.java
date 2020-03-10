@@ -9,4 +9,5 @@ import java.util.Optional;
 @Repository
 public interface UserRepository extends Neo4jRepository<User, Long> {
     Optional<User> findByExternalId(String externalId);
+    Long deleteByExternalId(String externalId);
 }
